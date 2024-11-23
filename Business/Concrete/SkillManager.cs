@@ -14,6 +14,7 @@ namespace Business.Concrete
     {
         ISkillDal _skillDal;
 
+        //Constructor
         public SkillManager(ISkillDal skillDal)
         {
             _skillDal = skillDal;
